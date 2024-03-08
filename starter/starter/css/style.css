@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  
+  .hero-banner{
+    background-color: rgb(128, 128, 128); 
+    color: #fff; 
+    text-align: center;
+   }
+  
+  #navBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #b9790b, #657078)
+  }
+  header{
+    display: inline-block;
+    background-color: #333; 
+    color: white; 
+    padding: 5px; 
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0 0 0 0;  
+    padding: 0;
+    background-color: #94f8ff;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+
+  .page-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    margin: 0 20% 0 20%;
+  }
+  
+  .about-container .work-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10%;
+  }
+  
+  h1 {
+  display: inline-block;
+  font-size: 48px;
+  align-items: center;
+  }
+  
+  h2 {
+    display: inline-block;
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  h3 {
+    display: block;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h4 {display: block;
+  font-size: 24px;
+  color: blue;
+  align-items: center;
+  justify-content: center;
+  }
+
+  #about img {
+    width: 20vh;
+    height: auto;
+    border-radius: 20%;
+    margin: 10px;
+    float: left;
+  }
+
+  #work img {
+    width: 25vh;
+    height: auto;
+    border-radius: 20%;
+    margin: 10px;
+    float: left;
+    justify-content: center;
+  }
+  
+  #Second-image{
+    width: 10px;
+    height: auto;
+    border-radius: 20%;
+    margin: 10px;
+    float: left;
+  }
+  
+  #contact{
+    text-align: center;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+ 
+  
+  
